@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { PageNotFoundComponent } from './poage-not-found/poage-not-foundcomponent';
+import { PageNotFoundComponent } from './poage-not-found/poage-not-found.component';
 import { RegisterComponent } from './user/register/register.component';
 import { LoginComponent } from './user/login/login.component';
 import { ProfileComponent } from './user/profile/profile.component';
-import { AddThemeComponent } from './theme/add-theme/add-theme.component';
+//import { AddThemeComponent } from './theme/add-theme/add-theme.component'; not required because of lazy loading
 import { MainComponent } from './main/main.component';
 import { CurrentThemeComponent } from './theme/current-theme/current-theme.component';
 import { authGuard } from './guards/auth.guard';
